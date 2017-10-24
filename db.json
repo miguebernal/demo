@@ -1,11 +1,15 @@
 {
   "restaurant": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+    { "id": 1, "descripcion": "Comida italiana", "nombre": "Little italy" },
+    { "id": 2, "descripcion": "Comida China", "nombre": "China town" },
+    { "id": 3, "descripcion": "Comida rusa", "nombre": "Vladimirs steak" }
   ],
   "menu": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+    { "id": 1, "idRestaurante": 1, "nombre": "pasta", "valor": 15000 },
+    { "id": 2, "idRestaurante": 1, "nombre": "pizza", "valor": 25000 },
+    { "id": 3, "idRestaurante": 2, "nombre": "chow fan", "valor": 10000 },
+    { "id": 4, "idRestaurante": 2, "nombre": "chun li", "valor": 30000 },
+    { "id": 5, "idRestaurante": 3, "nombre": "pelmeni", "valor": 40000 },
+    { "id": 6, "idRestaurante": 3, "nombre": "Shashlyk", "valor": 12000 }
   ]  
 }
